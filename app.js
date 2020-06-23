@@ -680,7 +680,7 @@ function drawTriangle2(positionX,positionY) {
 function myArt() {
     var color;
     var i = 0;
-    while (i<random(500,80)) {
+    while (i<random(800,150)) {
         context.beginPath();
         context.arc(random(drawingBoardWidth,0),random(drawingBoardHeight,0), random(50,0), 0, 2 * Math.PI);
         color = 'rgba('+random(255,0)+', '+random(255,0)+', '+random(255,0)+', '+random(100,0)/100+')';
